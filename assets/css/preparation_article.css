@@ -1,0 +1,15 @@
+#preparation-time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 1rem;
+}
+
+#preparation-time h3 {
+  font-size: 1rem;
+  color: hsl(332, 51%, 32%);
+  font-weight: 800;
+}
+
+#preparation-time ul li {
+  font-size: 0.9rem;
+  color: hsl(30, 10%, 34%);
+}
