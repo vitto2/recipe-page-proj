@@ -1,6 +1,7 @@
 #preparation-time {
-  background-color: hsl(330, 100%, 98%);
+  background-color: hsl(330, 100%, 99%);
   padding: 1rem;
+  border-radius: 1rem;
 }
 
 #preparation-time h3 {
@@ -12,4 +13,17 @@
 #preparation-time ul li {
   font-size: 0.9rem;
   color: hsl(30, 10%, 34%);
+  margin-bottom: 0.5rem;
+  list-style: none;
+}
+
+#preparation-time h3 { 
+    margin-bottom: 0.8rem;
+}
+
+#preparation-time ul li::before { 
+    content: "•";
+    margin-right: 1rem;
+    margin-left: -2.3rem;
+    font-weight: bold;
 }

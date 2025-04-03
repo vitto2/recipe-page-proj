@@ -2,13 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 @import url(./header.css);
 @import url(./preparation_article.css);
+@import url(./ingredients.css);
 
 * {
   box-sizing: border-box;
   margin: 0;
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
-
   font-style: normal;
 }
 
@@ -24,8 +24,9 @@ body {
   background-color: white;
   margin: 0 auto;
   border-radius: 16px;
-  padding: 20px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
 }
+
