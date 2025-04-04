@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
 
+#ingredients-article {
+  border-bottom: 1px solid #ccc; /* linha cinza */
+}
 
 #ingredients-article h2 {
   color: hsl(14, 45%, 36%);
@@ -17,10 +20,13 @@
   list-style: none;
 }
 
+#ingredients-article ul li::before {
+  content: "•";
+  margin-right: 1.3rem;
+  margin-left: -2.3rem;
+  font-weight: bold;
+}
 
-#ingredients-article ul li::before { 
-    content: "•";
-    margin-right: 1.3rem;
-    margin-left: -2.3rem;
-    font-weight: bold;
+#ingredients-article ul li:last-child::before {
+  content: "";
 }
