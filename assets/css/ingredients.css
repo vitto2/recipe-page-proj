@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
 
 #ingredients-article {
-  border-bottom: 1px solid #ccc; /* linha cinza */
+  border-bottom: 1px solid whitesmoke; /* linha cinza */
 }
 
 #ingredients-article h2 {

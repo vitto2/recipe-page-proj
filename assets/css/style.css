@@ -3,6 +3,7 @@
 @import url(./preparation_article.css);
 @import url(./ingredients.css);
 @import url(./instructions.css);
+@import url(./nutrition.css);
 
 * {
   box-sizing: border-box;
