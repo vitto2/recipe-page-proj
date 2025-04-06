@@ -27,6 +27,7 @@
   font-weight: bold;
 }
 
-#ingredients-article ul li:last-child::before {
-  content: "";
+
+#ingredients-article ul { 
+  margin-bottom: 2rem;
 }

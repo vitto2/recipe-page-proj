@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 @import url(./header.css);
 @import url(./preparation_article.css);
@@ -17,10 +16,10 @@ body {
   background-color: #b17f59;
   display: flex;
   align-items: center;
-  height: 100vh;
 }
 
 .main {
+  margin-top: 4em;
   width: 600px;
   background-color: white;
   margin: 0 auto;
@@ -28,6 +27,5 @@ body {
   padding: 30px;
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 2rem;
 }
-
